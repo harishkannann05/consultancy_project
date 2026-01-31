@@ -67,7 +67,7 @@ function DriverAuth() {
                   type="password"
                   value={loginPassword}
                   onChange={(e) => setLoginPassword(e.target.value)}
-                  placeholder="••••••••"
+                  placeholder="Password"
                   required
                 />
               </label>
@@ -92,7 +92,7 @@ function DriverAuth() {
                   type="tel"
                   value={signupPhone}
                   onChange={(e) => setSignupPhone(e.target.value)}
-                  placeholder="+91 98765 43210"
+                  placeholder="+91 phone number"
                   required
                 />
               </label>
@@ -112,7 +112,7 @@ function DriverAuth() {
                   type="password"
                   value={signupPassword}
                   onChange={(e) => setSignupPassword(e.target.value)}
-                  placeholder="••••••••"
+                  placeholder="Password"
                   required
                 />
               </label>
@@ -122,7 +122,7 @@ function DriverAuth() {
                   type="password"
                   value={signupConfirm}
                   onChange={(e) => setSignupConfirm(e.target.value)}
-                  placeholder="••••••••"
+                  placeholder="Confirm Password"
                   required
                 />
               </label>

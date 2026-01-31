@@ -115,6 +115,7 @@
 
 .auth-form input::placeholder {
   color: var(--placeholder);
+  opacity: 0.50;
 }
 
 .auth-form input:focus,

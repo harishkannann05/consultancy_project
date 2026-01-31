@@ -66,7 +66,7 @@ function OwnerAuth() {
                   type="password"
                   value={loginPassword}
                   onChange={(e) => setLoginPassword(e.target.value)}
-                  placeholder="••••••••"
+                  placeholder="Password"
                   required
                 />
               </label>
@@ -101,7 +101,7 @@ function OwnerAuth() {
                   type="password"
                   value={signupPassword}
                   onChange={(e) => setSignupPassword(e.target.value)}
-                  placeholder="••••••••"
+                  placeholder="Password"
                   required
                 />
               </label>
@@ -111,7 +111,7 @@ function OwnerAuth() {
                   type="password"
                   value={signupConfirm}
                   onChange={(e) => setSignupConfirm(e.target.value)}
-                  placeholder="••••••••"
+                  placeholder="Confirm Password"
                   required
                 />
               </label>
